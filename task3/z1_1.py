@@ -62,7 +62,7 @@ def add_shelf(shelf_number):
     else:
         print(f"Полка уже существует")
 
-command = input("Введите команду (p, s, l, a): ")
+command = input("Введите команду (p, s, l, a, d, m, as): ")
 
 if command == 'p':
     doc_number = input("Введите номер документа: ")
